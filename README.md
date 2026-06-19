@@ -2,9 +2,6 @@
 Wireless Sensor Network Description
 Novel & Energy-Aware CWSN Framework with Hybrid AI (IDS + LGBM + Fuzzy + Dyna-Q)
 Version 4.2 — B.Tech Final Year Capstone Project
-https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-https://img.shields.io/badge/Python-3.8%252B-blue?style=for-the-badge&logo=python
-https://img.shields.io/badge/LightGBM-3.3.5-green?style=for-the-badge
 
 **Project Overview**
 The Novel & Energy-Aware Cluster-Based Wireless Sensor Network (CWSN) Framework is a comprehensive simulation environment that integrates Intrusion Detection (IDS), LightGBM fault detection, Mamdani Fuzzy Inference System for cluster head selection, and Dyna-Q reinforcement learning for self-healing routing. Designed for academic research and publication, this framework simulates realistic WSN deployments with overlapping node behaviours, measurement noise, and dynamic topology changes.
@@ -263,33 +260,8 @@ Delay reduction: 56%
 
 Energy efficiency: +80%
 
-How to Use
-Installation
-Clone the repository:
 
-bash
-git clone https://github.com/yourusername/cwsn-ai-framework.git
-cd cwsn-ai-framework
-Create a virtual environment (recommended):
-
-bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
-
-bash
-pip install -r requirements.txt
-Running the Application
-bash
-streamlit run app.py
-Navigating the Dashboard
-Sidebar: Select module (Dashboard, Network Topology, LGBM, Fuzzy, Dyna‑Q, Trust/IDS, Protocol Comparison, Logs).
-
-Configure parameters in the sidebar before running each module.
-
-Use the Run All button to execute the full pipeline automatically.
-
-Key Interactions
+**Key Interactions**
 Network Topology: Step through pipeline phases (Create Topology, Select CHs, Data Transfer, Route).
 
 LGBM: Train model, view learning curves, noise sensitivity analysis, real‑time predictor.
@@ -335,4 +307,4 @@ This project was developed as part of the B.Tech Final Year Capstone at Vellore 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 **For questions, feedback, or collaboration, please contact:**
-[Your Email] | [Your LinkedIn] | GitHub Issues
+devarla.manojkumarreddy@gmail.com
