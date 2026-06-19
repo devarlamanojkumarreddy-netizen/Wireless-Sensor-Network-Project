@@ -198,7 +198,7 @@ Justification: A monolithic script simplifies deployment and ensures all compone
 **4.3 Configuration Parameters**
 All key parameters are exposed via the Streamlit sidebar:
 
-Network: Number of nodes (20–100), fault rate (5–50%), random seed.
+Network: Number of nodes (20–400), fault rate (5–50%), random seed.
 
 Dataset: Sample size (50K–300K), noise level (0–0.15), borderline percentage (5–30%), fault ratio (15–40%).
 
@@ -243,22 +243,7 @@ False Data: 85%
 
 Sybil: 70%
 
-**5.5 Protocol Comparison**
-Metric	LEACH	PEGASIS	TEEN	AODV	SEP	Proposed
-PDR (%)	72	75	77	69	74	96
-Energy (J/round)	0.042	0.038	0.035	0.045	0.039	0.021
-Delay (ms)	48	42	38	53	44	21
-Lifetime (rounds)	1200	1450	1620	1080	1360	2800
-FDR (%)	62	71	74	60	70	96
-Improvement over LEACH:
 
-Lifetime: 2.3×
-
-PDR: +33%
-
-Delay reduction: 56%
-
-Energy efficiency: +80%
 
 
 **Key Interactions**
