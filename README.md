@@ -288,8 +288,6 @@ Forster, A., & Murphy, A. L. (2007). FROMS: A failure recovery and maintenance s
 **Acknowledgements**
 This project was developed as part of the B.Tech Final Year Capstone at Vellore Institute of Technology(VIT), Vellore Campus. Special thanks to the faculty advisors for their guidance and to the open‑source community for providing the tools that made this work possible.
 
-**License**
-This project is licensed under the MIT License – see the LICENSE file for details.
 
 **For questions, feedback, or collaboration, please contact:**
 devarla.manojkumarreddy@gmail.com
